@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="vievport" content="width=dewice-width, initial-scale=1.0">
+    
+    <title>Zapremina valjka</title>
+</head>
+
+<style>
+
+    body {
+        background-color: #5a4758;
+    }
+
+</style>
+
+<body>
+
+    <script>
+        
+        var r = parseFloat(prompt("Unesite vrednost poluprecnika osnove valjka: "));
+        
+        var h = parseFloat(prompt("Unesite visinu valjka: "));
+
+        var v = Math.pow(r,2) * Math.PI * h;
+
+        alert("Zapremina valjka je: "+ v.toFixed(2));
+
+    </script>
+</body>
+</html>
